@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+// O(n) run-time complexity algo.
 class Solution {
   public static int kthSmallest(int[] arr, int k) {
     if (arr.length <= 1) {
